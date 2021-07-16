@@ -5,6 +5,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class IBAN_Validator {
+    /**
+     *Takes an IBAN as a String and validates it
+     * @param iban
+     * @return String
+     */
     public static String iban_Validator(String iban){
         Map<String, Integer> country = new HashMap<>();
         country.put("AL", 28);country.put("AD", 24);country.put("AT", 20);country.put("AZ", 28);
